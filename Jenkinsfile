@@ -8,7 +8,7 @@ pipeline{
 		  stage('Checkout the code'){
 			  steps{
 				  echo 'cloning the repo'
-				  git 'https://github.com/Sonal0409/DevOpsClassCodes.git'
+				  git 'https://github.com/Manjunath-Kapanaiah/DevOpsCodeDemo.git'
               }
           }
           stage('Compile'){
