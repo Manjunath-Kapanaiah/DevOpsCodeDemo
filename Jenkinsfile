@@ -1,4 +1,3 @@
-
 pipeline{
     tools{
        
@@ -29,10 +28,8 @@ pipeline{
               }
           }
            stage('UnitTest'){
-		  
-              steps{
-	         
-                  sh 'mvn test'
+			   steps{
+				   sh 'mvn test'
               }
           
           }
